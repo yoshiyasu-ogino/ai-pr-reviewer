@@ -13,7 +13,7 @@ We recommend installing the Pro version from [CodeRabbit](http://coderabbit.ai).
 ## Overview
 
 CodeRabbit `ai-pr-reviewer` is an AI-based code reviewer and summarizer for
-GitHub pull requests using OpenAI's `gpt-3.5-turbo` and `gpt-4` models. It is
+GitHub pull requests using with Azure OpenAI and is more secure since it accesses models you deploy yourself.. It is
 designed to be used as a GitHub Action and can be configured to run on every
 pull request and review comments
 
