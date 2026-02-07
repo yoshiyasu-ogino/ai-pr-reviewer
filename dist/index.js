@@ -15154,16 +15154,6 @@ ${lib_commenter/* SHORT_SUMMARY_START_TAG */.O$}
 ${inputs.shortSummary}
 ${lib_commenter/* SHORT_SUMMARY_END_TAG */.Zb}
 
----
-
-<details>
-<summary>Uplevel your code reviews with CodeRabbit Pro</summary>
-
-### CodeRabbit Pro
-
-If you like this project, please support us by purchasing the [Pro version](https://coderabbit.ai). The Pro version has advanced context, superior noise reduction and several proprietary improvements compared to the open source version. Moreover, CodeRabbit Pro is free for open source projects.
-
-</details>
 `;
     statusMsg += `
 ${skippedFiles.length > 0
@@ -15596,6 +15586,7 @@ function getTokenCount(input) {
     input = input.replace(/<\|endoftext\|>/g, '');
     return encode(input).length;
 }
+console.log('test');
 
 
 /***/ }),
